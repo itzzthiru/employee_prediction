@@ -2,20 +2,36 @@
 
 # 👥 Employee Attrition Prediction App
 
-This project predicts whether an employee is at risk of leaving the company based on key HR factors. It's powered by a machine learning model trained using top features and deployed as an interactive Streamlit web app.
+A machine learning web app built with Streamlit to predict whether an employee is at risk of leaving the company, based on key HR features.
 
 ---
 
-## 📌 Features
-
-- 🔮 Predicts attrition using Logistic Regression
-- ⚖️ Handles class imbalance with SMOTE
-- 🧠 Trained on top 10 most important HR features
-- 📊 Includes EDA visuals for HR insights
-- 🖥️ Deployed as a user-friendly Streamlit dashboard
+## 🧠 Predict Employee Attrition
+This app uses a logistic regression model trained on the top 10 most important HR features. You can enter employee data and instantly get a prediction.
 
 ---
 
-## 🚀 How to Run
+## 🚀 Live App
+👉 Coming Soon: [Deployment Link Here]
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Streamlit
+- Scikit-learn
+- Pandas, NumPy
+- SMOTE (imbalanced-learn)
+- Matplotlib, Seaborn
+
+---
+
+## 📦 How to Run
+
+```bash
+pip install -r requirements.txt
+streamlit run app/app.py
+
 
 
