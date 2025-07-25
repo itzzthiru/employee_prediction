@@ -144,11 +144,8 @@ elif page == "👤 Creator":
     st.title("👤 About the Creator")
     st.markdown("""
     ---
-    - **Name**: Your Full Name  
-    - **Email**: your.email@example.com  
-    - **LinkedIn**: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)  
-    - **GitHub**: [github.com/your-profile](https://github.com/your-profile)
-
+   - **Name**: Thirukumaran 
+    - **GitHub**: https://github.com/itzzthiru
     Built with ❤️ using Python, Streamlit, and scikit-learn.
     ---
     """)
