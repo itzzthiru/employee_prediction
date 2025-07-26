@@ -11,11 +11,6 @@ This app uses a logistic regression model trained on the top 10 most important H
 
 ---
 
-## 🚀 Live App
-👉 Coming Soon: [Deployment Link Here]
-
----
-
 ## 🛠️ Technologies Used
 
 - Python
