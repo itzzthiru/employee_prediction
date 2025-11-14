@@ -1,32 +1,86 @@
-# employee_prediction
+# Employee Attrition Prediction – Machine Learning & HR Analytics
 
-# 👥 Employee Attrition Prediction App
-
-A machine learning web app built with Streamlit to predict whether an employee is at risk of leaving the company, based on key HR features.
+A data-driven Machine Learning project designed to predict **employee attrition** based on key HR factors such as job satisfaction, workload, performance, distance, salary hike, and more. This project provides HR teams with actionable insights to identify employees at risk of leaving and improve retention strategies.
 
 ---
 
-## 🧠 Predict Employee Attrition
-This app uses a logistic regression model trained on the top 10 most important HR features. You can enter employee data and instantly get a prediction.
+## 🚀 Project Overview
+
+Employee attrition is one of the biggest challenges HR teams face. Losing trained employees impacts productivity, hiring costs, and organizational stability.
+
+This project builds a **predictive analytics system** using Machine Learning and presents the results through an interactive **Streamlit Dashboard**.
 
 ---
 
-## 🛠️ Technologies Used
+## 🎯 Key Features
 
-- Python
-- Streamlit
-- Scikit-learn
-- Pandas, NumPy
-- SMOTE (imbalanced-learn)
-- Matplotlib, Seaborn
+- ✔ Predict whether an employee is likely to leave  
+- ✔ Interactive Streamlit web app  
+- ✔ Visual insights on employee sentiments  
+- ✔ Real-time prediction using trained ML model  
+- ✔ Clean & user-friendly interface  
+- ✔ HR-focused analysis & metrics  
 
 ---
 
-## 📦 How to Run
+## 📊 Dataset Details
+
+- **Total Records:** 3,000+ employee entries  
+- **Features Included:**  
+  - Job Satisfaction  
+  - Monthly Income  
+  - Distance From Home  
+  - Work-Life Balance  
+  - Performance Rating  
+  - Age, Department, Role, etc.  
+- **Target Variable:** Attrition (Yes/No)
+
+---
+
+## 🧠 Machine Learning Model
+
+We tested multiple algorithms:
+- Logistic Regression  
+- Random Forest  
+- Decision Trees  
+- KNN  
+- SVM  
+
+The final model achieved:
+
+### **📈 Accuracy: 82%**
+
+Selected model: **Random Forest Classifier**
+
+Evaluation methods:
+- Train–Test Split  
+- Classification Report  
+- Confusion Matrix  
+- Feature Importance  
+
+---
+
+## 🛠 Tech Stack
+
+| Component | Technology |
+|----------|------------|
+| Language | Python |
+| Web App | Streamlit |
+| Data | Pandas, NumPy |
+| ML | Scikit-learn |
+| Visualization | Matplotlib, Seaborn |
+| Deployment | Streamlit Cloud |
+| Version Control | GitHub |
+
+---
+
+
+
+
+## 📥 Installation & Running Locally
+
+Clone the repository:
 
 ```bash
-pip install -r requirements.txt
-streamlit run app/app.py
-
-
-
+git clone https://github.com/itzzthiru/employee_prediction.git
+cd employee_prediction
